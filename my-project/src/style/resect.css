@@ -1,0 +1,27 @@
+/*清除浮动代码*/
+.clear:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clear{zoom:1}
+body{font-size: 14px;  font-family: "Microsoft Yahei";}
+html,body,div,h1,h2,h3,h4,h5,a,ol,ul,li,input,p{margin:0; padding:0; list-style:none;font-style: normal;font-weight: normal;}
+.fl{float: left;}
+.fr{float: right;}
+a{color: #3e474c;text-derection:none}
+a:active{color: #3e474c;}
+a:hover{ color:#fff;text-derection:none }
+/*版心*/
+.contenier{width:1180px;margin: 0 auto;}
+/*主背景色*/
+body{background-color: #f8f8f8;}
+input,textarea{ border: none;resize:none;
+ outline: none;/*清除选中之后的蓝色效果*/
+ -webkit-appearance:none;/*清除浏览器默认样式*/
+  border: none;
+}
+  body { min-width: 1080px;  }
+/*标题样式*/
+ h3.title{border-left:2px solid #3a8ee6; padding-left: 5px;margin-bottom: 10px;}
+ .body-content{background-color: #fff}
+ /*搜索框样式*/
+.search .demo-input-suffix .el-input{width: 180px;}
+.search{overflow: hidden;clear: both;margin-left: -5px;margin-right: -5px}
+.search>div{float: left;padding: 5px}
